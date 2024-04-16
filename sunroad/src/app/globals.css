@@ -6,6 +6,10 @@
   background-color: #FFFEFD;
 }
 
+body {
+  height: 300vh;
+}
+
 @keyframes visible {
   0% {
     opacity: 0;
@@ -29,4 +33,7 @@
     transform: scale(1);
   }
 }
+
+
+
 

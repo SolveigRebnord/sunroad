@@ -1,0 +1,78 @@
+[
+      {
+        "id": 1,
+        "title": "Rainydays",
+        "code": ["HTML", "CSS"],
+        "desc": "Ecomm",
+        "img1": "/rainydays_1.jpg",
+        "img2": "/rainydays_2.jpg",
+        "img3": "/rainydays_3.jpg",
+        "links": [
+          {"title": "Visit site", "link": "https://rainy-days-website.netlify.app/" }, 
+        {"title": "Github", "link": "https://github.com/SolveigRebnord/RainyDays-Website"}, 
+        {"title": "Figma", "link": "https://www.figma.com/file/XRdNEhiPPdHrsgEsSQAdWD/Rainydays%2FNew(MA)?type=design&node-id=0%3A1&mode=design&t=Y9laSqygfRtBRgoS-1"}
+      ]
+      },
+      {
+        "id": 2,
+        "title": "Science Museum",
+        "code": ["HTML", "CSS"],
+        "desc": "Another description",
+        "img1": "/science_1.jpg",
+        "img2": "/science_3.jpg",
+        "img3": "/science_2.jpg",
+        "links": [{"title": "Visit Site", "link": "https://tech-museum.netlify.app/" }, 
+        {"title": "Github", "link": "https://github.com/SolveigRebnord/ScienceMuseum-SA"}, 
+        {"title": "Figma", "link": "https://www.figma.com/file/j7k5Bu39Ur4X1UrkCKww2p/CommunityScienceMuseum%2FProtoype?type=design&node-id=0%3A1&mode=design&t=uarRdFVZiBhCF9rG-1"}]
+      },
+      {
+        "id": 3,
+        "title": "Holidaze",
+        "code": ["HTML", "CSS", "Javascript", "React", "Tailwind CSS"],
+        "desc": "Another description",
+        "img1": "/holi_1.jpg",
+        "img2": "/holi_2.png",
+        "img3": "/holi_3.jpg",
+        "links": [{"title": "Visit Site", "link": "https://holidaze-resorts.vercel.app/" }, 
+        {"title": "Github", "link": "https://github.com/SolveigRebnord/holidaze"}, 
+        {"title": "Figma", "link": "https://www.figma.com/file/JoIPK6pOws8tT3fmRVm57f/Exam-project?type=design&node-id=1%3A7&mode=design&t=317iFpKSC9d6nguo-1"}]
+      },
+      {
+        "id": 4,
+        "title": "Assorted Stuff",
+        "code": ["HTML", "CSS", "Javascript", "React", "Tailwind CSS"],
+        "desc": "Another description",
+        "img1": "/astuff_2.png",
+        "img2": "/astuff_1.png",
+        "img3": "/astuff_3.png",
+        "links": [{"title": "Visit Site", "link": "https://react-ecom-ten.vercel.app/" }, 
+        {"title": "Github", "link": "https://github.com/SolveigRebnord/react-ecom"}, 
+        {"title": "Figma", "link": "https://www.figma.com/file/tLxrPp4ZEBJjcNq2UJ5DAC/CA-React---ecom?type=design&node-id=6%3A181&mode=design&t=SYzKjs4rioSy6oOo-1"}]
+      },
+      {
+        "id": 5,
+        "title": "Seal Auction",
+        "code": ["HTML", "CSS", "Javascript", "React", "Tailwind CSS"],
+        "desc": "Another description",
+        "img1": "/seal_1.png",
+        "img2": "/seal_2.png",
+        "img3": "/seal_3.png",
+        "links": [{"title": "Visit Site", "link": "https://seal-auction.netlify.app/" }, 
+        {"title": "Github", "link": "https://github.com/SolveigRebnord/seal-auction-site"}, 
+        {"title": "Figma", "link": "https://www.figma.com/file/MjSQn8qZb02gxjpz1kTP5j/Wireframe-%26-Design---Auction-website?type=design&node-id=0%3A1&mode=design&t=LLj03miLehBWl26N-1"}]
+      },
+      {
+        "id": 6,
+        "title": "Wishlist",
+        "code": ["HTML", "CSS/SCSS", "Javascript", "React"],
+        "desc": "Another description",
+        "img1": "/wish_1.png",
+        "img2": "/wish_2.jpg",
+        "img3": "/wish_3.png",
+        "links": [{"title": "Visit Site", "link": "https://wishlist-six-azure.vercel.app/" }, 
+        {"title": "Github", "link": "https://github.com/SolveigRebnord/wishlist"}, 
+        {"title": "Figma", "link": "https://www.figma.com/file/aEe6OtC23HuZ2D6vFkeqxF/Wishlist-App?type=design&node-id=0%3A1&mode=design&t=re5FgLskPnQRLxd5-1"}]
+      }
+    ]
+  
+  
