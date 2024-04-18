@@ -60,7 +60,7 @@ const divStyle3 = { opacity: opacity3, transition: 'opacity 400ms ease-in 400ms'
 
     return ( 
         <section ref={componentRef} key={key} className={`opacity-0 transition-opacity 500ms ease-in relative flex flex-col md:flex-row justify-center gap-16 md:gap-24 items-center md:h-[350px] w-full md:mr-4  ${fade ? "opacity-100" : ""}`}>
-            <div className="relative w-full md:w-1/2 h-[400px] md:h-full">
+            <div className="relative w-full  [box-shadow:rgba(50,_50,_93,_0.25)_0px_13px_27px_-5px,_rgba(0,_0,_0,_0.3)_0px_8px_16px_-8px] md:shadow-none  md:w-1/2 h-[400px] md:h-full">
                 <div className="md:absolute left-0 bottom-0 w-fit h-fit md:w-[180px] md:h-[300px] [box-shadow:rgba(50,_50,_93,_0.25)_0px_13px_27px_-5px,_rgba(0,_0,_0,_0.3)_0px_8px_16px_-8px] " 
                 ref={img1Ref}
                 style={divStyle1}>
@@ -97,7 +97,6 @@ const divStyle3 = { opacity: opacity3, transition: 'opacity 400ms ease-in 400ms'
                  </ul>
             </div>
         </section>
-        
      );
 }
  

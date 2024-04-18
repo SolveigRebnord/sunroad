@@ -5,7 +5,6 @@ import Link from "next/link";
 
 
 const mplus = M_PLUS_1({ subsets: ["latin"], weight: ['300', '600'] });
-const bModa = Bodoni_Moda({ subsets: ["latin"], weight: ['400', '600'] });
 
 
 export default async function Contact() {
