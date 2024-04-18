@@ -17,7 +17,7 @@ export default async function Contact() {
 
       <h1 className={` text-[42px]`}>Get In Touch</h1>
       <div className="pt-6">
-        <p className="flex flex-row justify-center align-baseline gap-2"><Image src="/pin.svg" width={20} height={20} />Oslo</p>
+        <p className="flex flex-row justify-center align-baseline gap-2"><Image src="/pin.svg" alt="pin icon" width={20} height={20} />Oslo</p>
      <div className="flex flex-col gap-6 pt-16">
         <p><Link href={'https://www.linkedin.com/in/solveig-rebnord-68b9a3190/'} className="underline  underline-offset-4">LinkedIn</Link></p>
         <p><Link href={'https://github.com/SolveigRebnord'} className="underline underline-offset-4">GitHub</Link></p>

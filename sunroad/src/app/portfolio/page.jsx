@@ -10,7 +10,7 @@ export default async function Portfolio() {
 
   return (
     <main className="text-center w-[90%] md:w-[80%] m-auto pt-20 flex flex-col items-center justify-center gap-48">
-      {data.map((proj) => <Project project={proj} />)}
+      {data.map((proj) => <Project project={proj} key={proj.name} />)}
   
 
     </main>
