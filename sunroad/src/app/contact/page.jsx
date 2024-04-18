@@ -15,7 +15,7 @@ export default async function Contact() {
   return (
     <main className={`${mplus.className} text-center m-auto pt-12`}>
 
-      <h1 className={` text-[42px]`}>Get In Touch</h1>
+      <h1 className={`text-[24px] md:text-[32px]`}>Get In Touch</h1>
       <div className="pt-6">
         <p className="flex flex-row justify-center align-baseline gap-2"><Image src="/pin.svg" alt="pin icon" width={20} height={20} />Oslo</p>
      <div className="flex flex-col gap-6 pt-16">
