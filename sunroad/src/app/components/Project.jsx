@@ -59,7 +59,7 @@ const divStyle2 = { opacity: opacity2, transition: 'opacity 400ms ease-in 200ms'
 const divStyle3 = { opacity: opacity3, transition: 'opacity 400ms ease-in 400ms' };
 
     return ( 
-        <section ref={componentRef} className={`opacity-0 transition-opacity 500ms ease-in relative flex flex-col md:flex-row justify-center gap-24 items-center md:h-[350px] w-full mr-4  ${fade ? "opacity-100" : ""}`}>
+        <section ref={componentRef} key={project.name} className={`opacity-0 transition-opacity 500ms ease-in relative flex flex-col md:flex-row justify-center gap-24 items-center md:h-[350px] w-full mr-4  ${fade ? "opacity-100" : ""}`}>
             <div className="relative w-full md:w-1/2 h-[400px] md:h-full">
                 <div className="md:absolute left-0 bottom-0 w-fit h-fit md:w-[180px] md:h-[300px] [box-shadow:rgba(50,_50,_93,_0.25)_0px_13px_27px_-5px,_rgba(0,_0,_0,_0.3)_0px_8px_16px_-8px] " 
                 ref={img1Ref}
@@ -90,10 +90,10 @@ const divStyle3 = { opacity: opacity3, transition: 'opacity 400ms ease-in 400ms'
             </div>
             <div className={`${mplus.className} flex flex-col w-fit justify-start items-start gap-4 text-left text-sm`}>
                 <h2 className=" text-base flex flex-row gap-4 items-baseline tracking-wide"><span className={`${bodom.className} text-[36px] text-[#2D2828]`}>{project.id}. </span> {project.title}</h2> 
-                <ul className="flex flex-row gap-3 flex-wrap">{project.code.map((name) => <li className="font-semibold text-xs tracking-wide whitespace-nowrap bg-gray-100 p-1.5 rounded-md">{name}</li>)}
+                <ul className="flex flex-row gap-3 flex-wrap">{project.code.map((name) => <li key={name} className="font-semibold text-xs tracking-wide whitespace-nowrap bg-gray-100 p-1.5 rounded-md">{name}</li>)}
                  </ul>
                 <p className="text-sm pt-4 ">{project.desc}</p>
-                <ul className="flex flex-row gap-6 pt-8">{project.links.map((link) => <Link target="blank" href={link.link} className="underline first-of-type:pr-4">{link.title}</Link>)}
+                <ul className="flex flex-row gap-6 pt-8">{project.links.map((link) => <Link target="blank" key={link.link} href={link.link} className="underline first-of-type:pr-4">{link.title}</Link>)}
                  </ul>
             </div>
         </section>
