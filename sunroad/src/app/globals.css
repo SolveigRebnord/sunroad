@@ -7,7 +7,7 @@
 }
 
 body {
-  height: 300vh;
+  min-width: 100%;
 }
 
 @keyframes visible {

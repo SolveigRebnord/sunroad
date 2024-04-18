@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <link rel="icon" href='./sunroad_logo.svg'/>
-      <body className={inter.className}>
+      <body className={`min-h-screen ${inter.className}`}>
       <Header/>
           {children}
           <Footer/>
@@ -26,3 +26,4 @@ export default function RootLayout({
     </html>
   );
 }
+
